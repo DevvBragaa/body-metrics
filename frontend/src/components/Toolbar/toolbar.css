@@ -1,0 +1,47 @@
+/* Toolbar.css */
+.toolbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #4caf50; /* Cor verde do tema */
+	color: white;
+	border-bottom: 2px solid #81c784; /* Linha inferior verde clara */
+  }
+  
+  .toolbar-title {
+	margin: 0;
+	font-size: 1.5rem;
+	flex: 1; /* Faz o título ocupar o máximo de espaço disponível à esquerda */
+  }
+  
+  .toolbar-actions {
+	display: flex;
+  }
+  
+  .toolbar-button {
+	background-color: #ffffff;
+	color: #4caf50;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin-left: 8px; /* Espaçamento à esquerda de cada botão */
+  }
+
+  .img {
+	filter: invert(53%) sepia(77%) saturate(1185%) hue-rotate(88deg) brightness(102%) contrast(101%); /* Ajusta a cor da imagem para combinar com o verde da toolbar */
+	height: 24px; /* Ajuste o tamanho da imagem conforme necessário */
+	width: 24px; /* Ajuste o tamanho da imagem conforme necessário */
+	margin: 0; /* Remove margens adicionais */
+  }
+  
+  .toolbar-button:first-child {
+	margin-left: 0; /* Remove o espaçamento à esquerda do primeiro botão */
+  }
+  
+  .toolbar-button:hover {
+	background-color: #f1f8f6; /* Cor de fundo ao passar o mouse */
+  }
+  

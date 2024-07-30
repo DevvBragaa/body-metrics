@@ -1,0 +1,56 @@
+/* IMCCalculator.css */
+.imc-calculator {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: #f5f5f5;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imc-title {
+	font-size: 1.25rem;
+	margin-bottom: 15px;
+	text-align: center;
+  }
+  
+  .imc-input-group {
+	margin-bottom: 15px;
+  }
+  
+  .imc-input-group label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: bold;
+  }
+  
+  .imc-input-group input {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  .imc-button {
+	width: 100%;
+	padding: 10px;
+	background-color: #4caf50; /* Cor verde do tema */
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  .imc-button:hover {
+	background-color: #45a049; /* Cor verde mais escura no hover */
+  }
+  
+  .imc-result {
+	margin-top: 15px;
+	font-size: 1rem;
+	text-align: center;
+	font-weight: bold;
+  }
+  
