@@ -1,7 +1,6 @@
 import './App.css';
 import Calculator from './components/calculator/calculator';
-import Toolbar from './components/Toolbar/toolbar';
-
+import Toolbar from './components/Toolbar';
 
 function App() {
   return (

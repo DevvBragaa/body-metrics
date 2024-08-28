@@ -26,6 +26,12 @@ const Calculator = () => {
     }
   };
 
+  const handleConstrucao = async () => {
+
+    alert("Funcionalidade em Desenvolvimento")
+
+  }
+
   return (
     <div className="imc-calculator">
       <h2 className="imc-title">Calculadora de IMC</h2>
@@ -50,7 +56,7 @@ const Calculator = () => {
           placeholder="Digite a altura"
         />
       </div>
-      <button className="imc-button" onClick={handleCalculate}>Calcular IMC</button>
+      <button className="imc-button" onClick={handleConstrucao}>Calcular IMC</button>
       <div className="imc-result">{resultado}</div>
     </div>
   );
